@@ -1,0 +1,88 @@
+/*****************************************************************************/
+/*
+/* Common
+/*
+/*****************************************************************************/
+
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body { height: 100%; }
+
+body {
+  background-color: #FFF;
+  font: 100%/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  padding: 2em;
+  margin: 0 auto;
+  max-width: 50em;  
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%; }
+
+h1 { 
+  margin-bottom: 1em;
+  font-size: 4em;
+  text-transform: uppercase;
+  color: #00b7ec;  
+}
+h2 {
+  font-size: 1.4em;
+}
+p { margin: 0 0 1.4em 0; }
+
+
+a,
+a:visited { color: #00b7ec; }
+a:hover, 
+a:focus   { color: #000; }
+
+.tl {
+  border-left: 0.5em solid #dddddd;
+  padding-bottom: 3em;
+  position: relative;
+  list-style-type: none;
+  padding: 0 0 4em 0;
+}
+
+.tl:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: -1.7em;
+  width: 2em;
+  height: 2em;
+  background: #dddddd;
+  border: 0.4em solid #dddddd; 
+}
+
+.tl-node {
+  padding-left: 2em;
+  margin-bottom: 4em;
+  position: relative; 
+}
+
+.tl-node a {
+  display: block; 
+}
+
+.tl-node:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -1.2em;
+  width: 1em;
+  height: 1em;
+  background: #fff;
+  border: 0.4em solid #dddddd; 
+}
+
+.tl-time {
+  font-size:0.8em;
+  color: #666;
+  display: block;
+  margin: -1em 0 -0.3em 0;
+}

@@ -1,0 +1,16 @@
+---
+layout: default
+title: Klub Dialog Umbau Zeitleiste
+---
+
+<ol class="tl">
+  {% for post in site.posts %}
+    <li class="tl-node">
+      <article>
+        <time pubdate="pubdate" class="tl-time">{{ post.date | date_to_string }}</time>
+        <h2>{{ post.title }}</h2>
+        {{ post.content }}
+      </article>
+    </li>
+  {% endfor %}
+</ul>
