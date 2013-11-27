@@ -1,0 +1,9 @@
+---
+layout: post
+title: "Image to Grid"
+date: 2013-11-27 17:59
+categories: codepen
+---
+Proof of Concept für die browserseitige Umwandlung von Bildern im Stile des
+Klub-Dialog Print-CI;
+<p data-height="500" data-theme-id="0" data-slug-hash="Audlr" data-user="noxoc" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/noxoc/pen/Audlr'>Image to Gridpattern</a> by Nils Riedemann (<a href='http://codepen.io/noxoc'>@noxoc</a>) on <a href='http://codepen.io'>CodePen</a></p>
