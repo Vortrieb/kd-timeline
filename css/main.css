@@ -46,6 +46,7 @@ a:focus   { color: #000; }
   position: relative;
   list-style-type: none;
   padding: 0 0 4em 0;
+  margin-bottom: 6em;
 }
 
 .tl:before {
@@ -63,10 +64,6 @@ a:focus   { color: #000; }
   padding-left: 2em;
   margin-bottom: 4em;
   position: relative; 
-}
-
-.tl-node a {
-  display: block; 
 }
 
 .tl-node:before {
