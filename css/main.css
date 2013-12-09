@@ -83,3 +83,15 @@ a:focus   { color: #000; }
   display: block;
   margin: -1em 0 -0.3em 0;
 }
+
+.tl-screenshot {
+  border: 1px solid #eee;
+  width: 100%;
+  max-height: 25em;
+  position: relative;
+  overflow: scroll;
+}
+
+.tl-screenshot img {
+  width: 100%;
+}
